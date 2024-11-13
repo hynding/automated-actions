@@ -1,9 +1,11 @@
 {
   "name": "automated-actions",
+  "type": "module",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "puppeteer": "^23.7.0",
     "robotjs": "^0.6.0"
   },
   "devDependencies": {},
