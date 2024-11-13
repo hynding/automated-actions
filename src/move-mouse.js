@@ -1,5 +1,5 @@
 // Move the mouse across the screen as a sine wave.
-var robot = require("robotjs");
+import robot from "robotjs";
 
 // Speed up the mouse.
 robot.setMouseDelay(2);
