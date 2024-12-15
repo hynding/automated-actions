@@ -5,12 +5,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "@nut-tree-fork/nut-js": "^4.2.2",
+    "@skedwards88/word_lists": "^3.0.16",
     "puppeteer": "^23.7.0",
     "robotjs": "^0.6.0"
   },
   "devDependencies": {},
   "scripts": {
-    "move-mouse": "node ./src/move-mouse.js",
+    "move-mouse": "node ./src/move-mouse-robot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
